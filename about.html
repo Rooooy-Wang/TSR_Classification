@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- bootstrap的基本配置-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 引入icon包-->
+    <link rel="icon" href="https://v3.bootcss.com/favicon.ico">
+    <!-- 页面名称-->
+    <title>TSR classification</title>
+    <!-- bootstrap-->
+    <link rel="stylesheet" href="./src/bootstrap.min.css">
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="./src/jquery-3.5.1.min.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>-->
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="./src/bootstrap.min.js"></script>
+    <!--设置留白-->
+    <style>
+        body {
+            padding-top: 80px;
+        }
+    </style>
+</head>
+<body>
+<!--创建一个默认导航栏, 而且固定在顶部, 如果改成navbar-inverse,就是黑色导航栏-->
+<!--如果改成bottom, 就是底部导航栏-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html">TSR Classification <span class="label label-default">beta</span></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="./index.html">首页</a></li>
+                <li><a href="doc.html">文档</a></li>
+                <li class="active"><a href="#">关于</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">1. 此处显示相关内容标题</div>
+        <div class="panel-body"><p>此处显示段落</p></div>
+    </div>
+</div>
+</body>
+</html>
